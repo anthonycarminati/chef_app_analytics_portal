@@ -15,6 +15,8 @@ The key functional requirements and software components of this cookbook are:
 - install/configure python and relevant packages via pip
 - install/configure relevant db drivers
 - install/configure AWS CodeDeploy Agent
+- install/configure/manage web server and reverse proxy for traffic management
+- install/configure/manage bokeh server(if applicable)
 
 ### Repo Folder Structure
 - attributes
@@ -28,16 +30,25 @@ The key functional requirements and software components of this cookbook are:
 
 Requirements
 ------------
-<!--TODO: List cookbook requirements.-->
 #### Platforms
+- Ubuntu
+- Amazon Linux
 
 #### Libraries
 
 #### Other Cookbooks
+- 'nginx-full'
+- 'gunicorn'
+- 'python2.7'
+- 'python-pip'
+- 'htop'
+- 'awscli'
+- 'git'
+- 'libpython-dev'
+- 'python-dev'
 
 #### Packages
 
-#### Operating Systems
 
 Attributes
 ----------
