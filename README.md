@@ -54,20 +54,7 @@ Attributes
 ----------
 <!--TODO: List parameters here for each recipe.-->
 #### chef_app_analytics_portal::default
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['chef_app_analytics_portal']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
+
 #### chef_app_analytics_portal::setup
 <table>
   <tr>
@@ -77,72 +64,20 @@ Attributes
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['chef_app_analytics_portal']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
+    <td><tt>['chef_app_analytics_portal']['appdir']</tt></td>
+    <td>String</td>
+    <td>Root directory for application</td>
+    <td><tt>`/opt/appdir`</tt></td>
   </tr>
 </table>
 #### chef_app_analytics_portal::configure
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['chef_app_analytics_portal']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
+
 #### chef_app_analytics_portal::deploy
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['chef_app_analytics_portal']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
+
 #### chef_app_analytics_portal::undeploy
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['chef_app_analytics_portal']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
+
 #### chef_app_analytics_portal::shutdown
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['chef_app_analytics_portal']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
+
 
 Contributing
 ------------
