@@ -1,4 +1,4 @@
-Chef Application Cookbook - Advanced Analytics Portal
+Chef Application Cookbook - Analytics Portal
 ===========================
 This cookbook, written as an application cookbook, is being developed to setup a web delivery platform for deliverying advanced analytics.
 
