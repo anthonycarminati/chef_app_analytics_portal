@@ -23,7 +23,7 @@ end
 ## Initialize application directory
 ## ----------
 # TODO: make initialized app directory dynamic, feed params from attributes file
-directory '/opt/appdir/' do
+directory node[:chef_app_analytics_portal][:app_dir] do
   owner 'root'
   group 'root'
   recursive true
