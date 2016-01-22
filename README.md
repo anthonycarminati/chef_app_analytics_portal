@@ -67,7 +67,8 @@ Attributes
     <td><tt>['chef_app_analytics_portal']['appdir']</tt></td>
     <td>String</td>
     <td>Root directory for application</td>
-    <td><tt>`/opt/appdir`</tt></td>
+    <!--TODO: Add attribute to code-->
+    <td><tt>/opt/appdir</tt></td>
   </tr>
 </table>
 #### chef_app_analytics_portal::configure
