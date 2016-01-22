@@ -37,15 +37,15 @@ Requirements
 #### Libraries
 
 #### Other Cookbooks
-- 'nginx-full'
-- 'gunicorn'
-- 'python2.7'
-- 'python-pip'
-- 'htop'
-- 'awscli'
-- 'git'
-- 'libpython-dev'
-- 'python-dev'
+- `nginx-full`
+- `gunicorn`
+- `python2.7`
+- `python-pip`
+- `htop`
+- `awscli`
+- `git`
+- `libpython-dev`
+- `python-dev`
 
 #### Packages
 
@@ -53,8 +53,6 @@ Requirements
 Attributes
 ----------
 <!--TODO: List parameters here for each recipe.-->
-#### chef_app_analytics_portal::default
-
 #### chef_app_analytics_portal::setup
 <table>
   <tr>
