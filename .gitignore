@@ -20,3 +20,4 @@ bin/*
 **.conf
 **/**.conf
 **/**.DS_Store
+.DS_Store
